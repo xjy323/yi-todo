@@ -1,0 +1,75 @@
+body {
+    background-color: #fffaf3;
+    font-family: "Helvetica", sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background: #fffdf8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #e6b800;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #f0d98c;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #ffd966;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc33;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 完成状态 */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* 优先级颜色（由深到浅） */
+.high {
+    background-color: #ffd24d;
+}
+
+.medium {
+    background-color: #ffe680;
+}
+
+.low {
+    background-color: #fff3b0;
+}
